@@ -1,3 +1,6 @@
+server:
+  port: 1001
+
 spring:
   config:
     activate:
@@ -14,8 +17,7 @@ spring:
       on-profile: docker
   zipkin:
     baseUrl: http://tracing-server:9411
-server:
-  port: 1001
+
 eureka:
   client:
     serviceUrl:
